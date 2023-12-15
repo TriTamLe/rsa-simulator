@@ -1,0 +1,21 @@
+@import '../design-system/color.var.scss';
+
+[data-theme='light'] {
+  background-color: $rsa-secondary-dark;
+
+  .bg-1,
+  .bg-2 {
+    background-color: $rsa-secondary-dark;
+  }
+  .ant-layout-sider {
+    background-color: $rsa-secondary-dark;
+  }
+
+  .text-1 {
+    color: $neutral-900;
+  }
+
+  .text-2 {
+    color: $neutral-800;
+  }
+}

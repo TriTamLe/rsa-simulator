@@ -1,0 +1,17 @@
+@import '../design-system/color.var.scss';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: underline;
+  cursor: pointer;
+}
